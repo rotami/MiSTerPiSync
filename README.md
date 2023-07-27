@@ -41,7 +41,7 @@ crontab -e
 ```
 Add the following lines at the end of the file:
 ```
-```ruby
+```bash
 * * * * * /etc/MiSTerTrigger.sh > /dev/null 2>&1
 @reboot /etc/MiSTerTrigger.sh > /dev/null 2>&1
 ```
