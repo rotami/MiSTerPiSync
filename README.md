@@ -36,3 +36,11 @@ crontab -e
 Add the following lines at the end of the file:
 * * * * * /etc/MiSTerTrigger.sh > /dev/null 2>&1
 @reboot /etc/MiSTerTrigger.sh > /dev/null 2>&1
+
+Save and close the file.
+
+# Usage
+On your MiSTer device, run the MiSTerSync.sh script when you want to trigger a sync. This will create a trigger file that the Pi will detect, initiating the synchronization process.
+
+# Troubleshooting
+Make sure that the IP addresses, FTP usernames and passwords in your scripts match those of your MiSTer devices and that they're connected to the same network as your Pi. Also make sure to use static ip-adresses on your router. Otherwise the ip-adresses will change from time to time and the script will fail. If you're still having issues, try running the scripts manually on your Pi and check the output for any error messages.
