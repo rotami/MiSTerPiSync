@@ -45,6 +45,7 @@ Add the following lines at the end of the file:
 * * * * * /etc/MiSTerTrigger.sh > /dev/null 2>&1
 @reboot /etc/MiSTerTrigger.sh > /dev/null 2>&1
 ```
+```
 Save and close the file.
 
 # Usage
