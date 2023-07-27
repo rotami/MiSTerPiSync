@@ -3,6 +3,7 @@ This project provides a simple solution for synchronizing save game files betwee
 
 # Bugs
 Please wait for the final release. In the current state it erases save files from the second MiSTer. 
+  Working on a newer version that will back-up in two separate folders and then merge them in one folder that then wil synchonise with both devices. 
 
 ## Disclaimer
 This is my first project and it has not been thoroughly tested. I am not responsible for any damage or loss of save games or save states that may occur as a result of using these scripts. Please use this project at your own risk.
