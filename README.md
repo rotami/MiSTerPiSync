@@ -1,6 +1,13 @@
 # MiSTerPiSync
 This project provides a simple solution for synchronizing save game files between two or more MiSTer FPGA devices via a Raspberry Pi. The Pi acts as an intermediary, periodically checking for a trigger file on the MiSTer devices, and if found, synchronizing the save files between them.
 
+## Disclaimer
+This is my first project and it has not been thoroughly tested. I am not responsible for any damage or loss of save games or save states that may occur as a result of using these scripts. Please use this project at your own risk.
+
+It's strongly recommended to take a backup of your save games and save states before using these scripts. If you encounter any issues, please report them through the GitHub issue tracking system.
+
+Remember, you are responsible for your own data and the safety of your devices. Always take precautions when using scripts that modify, copy, or delete data.
+
 # Getting Started
 # 1. Setup your Raspberry Pi
 You'll need a Raspberry Pi set up with a Unix-based OS (like Raspbian) and connected to the same network as your MiSTer devices. Ensure you have FTP and lftp installed. If not, you can install them using the following commands:
