@@ -37,15 +37,16 @@ Copy the MiSTerSync.sh script to the scripts directory of your MiSTer devices.
 Cron jobs need to be set up on your Raspberry Pi to run the scripts at regular intervals. Open the crontab editor:
 ```
 crontab -e
-
+```
 ```
 Add the following lines at the end of the file:
 ```
+
 ```
 * * * * * /etc/MiSTerTrigger.sh > /dev/null 2>&1
 @reboot /etc/MiSTerTrigger.sh > /dev/null 2>&1
 ```
-```
+
 Save and close the file.
 
 # Usage
