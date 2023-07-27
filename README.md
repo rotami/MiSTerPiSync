@@ -4,9 +4,10 @@ This project provides a simple solution for synchronizing save game files betwee
 # Getting Started
 # 1. Setup your Raspberry Pi
 You'll need a Raspberry Pi set up with a Unix-based OS (like Raspbian) and connected to the same network as your MiSTer devices. Ensure you have FTP and lftp installed. If not, you can install them using the following commands:
-
+```
 sudo apt-get update
 sudo apt-get install ftp lftp
+```
 
 # 2 Install Scripts on Raspberry Pi
 Clone this repository and copy the scripts MiSTerTrigger.sh and MiSTerSaveGames.sh into your /etc directory:
